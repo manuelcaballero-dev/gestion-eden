@@ -12,7 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
@@ -87,13 +87,20 @@
 
                     <div class="col-md-3 mb-4">
 
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm h-100">
 
                             <div class="card-body">
 
-                                <h5>Clientes</h5>
+                                <div class="d-flex justify-content-between align-items-center">
 
-                                <h2>0</h2>
+                                    <div>
+                                        <h6 class="text-muted">Clientes</h6>
+                                        <h2>120</h2>
+                                    </div>
+
+                                    <i class="bi bi-people-fill fs-1 text-success"></i>
+
+                                </div>
 
                             </div>
 
@@ -103,13 +110,20 @@
 
                     <div class="col-md-3 mb-4">
 
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm h-100">
 
                             <div class="card-body">
 
-                                <h5>Proveedores</h5>
+                                <div class="d-flex justify-content-between align-items-center">
 
-                                <h2>0</h2>
+                                    <div>
+                                        <h6 class="text-muted">Proveedores</h6>
+                                        <h2>12</h2>
+                                    </div>
+
+                                    <i class="bi bi-building fs-1 text-success"></i>
+
+                                </div>
 
                             </div>
 
@@ -119,13 +133,20 @@
 
                     <div class="col-md-3 mb-4">
 
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm h-100">
 
                             <div class="card-body">
 
-                                <h5>Insumos</h5>
+                                <div class="d-flex justify-content-between align-items-center">
 
-                                <h2>0</h2>
+                                    <div>
+                                        <h6 class="text-muted">Insumos</h6>
+                                        <h2>34</h2>
+                                    </div>
+
+                                    <i class="bi bi-box-seam fs-1 text-success"></i>
+
+                                </div>
 
                             </div>
 
@@ -135,13 +156,20 @@
 
                     <div class="col-md-3 mb-4">
 
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm h-100">
 
                             <div class="card-body">
 
-                                <h5>Productos</h5>
+                                <div class="d-flex justify-content-between align-items-center">
 
-                                <h2>0</h2>
+                                    <div>
+                                        <h6 class="text-muted">Productos</h6>
+                                        <h2>15</h2>
+                                    </div>
+
+                                    <i class="bi bi-bag-check-fill fs-1 text-success"></i>
+
+                                </div>
 
                             </div>
 
@@ -149,9 +177,97 @@
 
                     </div>
 
-                </div>
+                    <div class="card shadow-sm mt-3">
 
-            </div>
+                        <div class="card-header">
+
+                            <h5 class="mb-0">
+                                Movimientos Recientes
+                            </h5>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <table class="table table-striped">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th>Fecha</th>
+                                        <th>Tipo</th>
+                                        <th>Producto/Insumo</th>
+                                        <th>Total</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>15/06/2026</td>
+                                        <td>Compra</td>
+                                        <td>Aceite Base</td>
+                                        <td>$250.000</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>15/06/2026</td>
+                                        <td>Venta</td>
+                                        <td>Pomada CBD</td>
+                                        <td>$180.000</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>14/06/2026</td>
+                                        <td>Producción</td>
+                                        <td>Lote #12</td>
+                                        <td>$120.000</td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card shadow-sm mt-4">
+
+                        <div class="card-header">
+
+                            <h5 class="mb-0">
+                                Alertas de Inventario
+                            </h5>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <div class="alert alert-warning">
+
+                                El insumo "Aceite Base" está por debajo del stock mínimo.
+
+                            </div>
+
+                            <div class="alert alert-danger">
+
+                                El producto "Pomada CBD 60g" está agotado.
+
+                            </div>
+
+                        </div>
+
+                    </div>
 
         </main>
 
