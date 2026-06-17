@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestión de Producto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <h4>Gestión Edén</h4>
+            </div>
+
+            <ul class="sidebar-menu">
+
+                <li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+                <li><a href="#">👥 Usuarios</a></li>
+
+                <li><a href="#">📋 Bitácora</a></li>
+
+                <li><a href="clientes.html">👤 Clientes</a></li>
+
+                <li><a href="proveedores.html">🏢 Proveedores</a></li>
+
+                <li><a href="insumos.html">📦 Insumos</a></li>
+
+                <li><a href="productos.html">📦 Productos</a></li>
+
+                <li><a href="compras.html">🛒 Compras</a></li>
+
+                <li><a href="#">🏭 Producción</a></li>
+
+                <li><a href="#">💰 Ventas</a></li>
+
+                <li><a href="#">⚙️ Configuración</a></li>
+
+            </ul>
+
+        </aside>
+
+        <!-- CONTENIDO -->
+
+        <main class="main-content">
+
+            <!-- NAVBAR -->
+
+            <div class="top-navbar">
+
+                <h5 class="m-0">
+                    Productos
+                </h5>
+
+                <div>
+                    Administrador
+                </div>
+
+            </div>
+
+            <!-- CONTENIDO -->
+
+            <div class="content">
+
+                <h2 class="mb-4">
+                    Registrar Producto
+                </h2>
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <form>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Nombre
+                                </label>
+
+                                <input type="text" class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Precio Venta
+                                </label>
+
+                                <input type="number" class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Stock Minimo
+                                </label>
+
+                                <input type="number" class="form-control">
+
+                            </div>
+
+                            <button type="submit" class="btn btn-success">
+                                Guardar Producto
+                            </button>
+
+                            <a href="productos.html" class="btn btn-secondary">
+
+                                Cancelar
+
+                            </a>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
