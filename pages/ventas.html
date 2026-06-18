@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestión de Ventas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <h4>Gestión Edén</h4>
+            </div>
+
+            <ul class="sidebar-menu">
+                
+                <li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+                <li><a href="usuarios.html">👥 Usuarios</a></li>
+
+                <li><a href="bitacora.html">📋 Bitácora</a></li>
+
+                <li><a href="clientes.html">👤 Clientes</a></li>
+
+                <li><a href="proveedores.html">🏢 Proveedores</a></li>
+
+                <li><a href="insumos.html">📦 Insumos</a></li>
+
+                <li><a href="productos.html">📦 Productos</a></li>
+
+                <li><a href="compras.html">🛒 Compras</a></li>
+
+                <li><a href="produccion.html">🏭 Producción</a></li>
+
+                <li><a href="ventas.html">💰 Ventas</a></li>
+
+                <li><a href="configuracion.html">⚙️ Configuración</a></li>
+
+            </ul>
+
+        </aside>
+
+        <!-- CONTENIDO -->
+
+        <main class="main-content">
+
+            <!-- NAVBAR -->
+
+            <div class="top-navbar">
+
+                <h5 class="m-0">
+                    Ventas
+                </h5>
+
+                <div>
+                    Administrador
+                </div>
+
+            </div>
+
+            <!-- CONTENIDO -->
+
+            <div class="content">
+
+                <h2 class="mb-4">
+                    Gestión de Ventas
+                </h2>
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <div class="row mb-3">
+
+                            <div class="col-md-6">
+
+                                <a href="venta-form.html" class="btn btn-success">
+
+                                    Nueva Venta
+
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <input type="text" class="form-control" placeholder="Buscar venta...">
+
+                            </div>
+
+                        </div>
+
+                        <table class="table table-striped table-hover">
+
+                            <thead>
+
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Fecha</th>
+                                    <th>Cliente</th>
+                                    <th>Producto</th>
+                                    <th>Tipo Venta</th>
+                                    <th>Total</th>
+                                    <th>Acciones</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+                                <tr>
+
+                                    <td>1</td>
+                                    <td>16/06/2026</td>
+                                    <td>Juan Pérez</td>
+                                    <td>Pomada CBD 60g</td>
+                                    <td>Detal</td>
+                                    <td>$180.000</td>
+
+                                    <td>
+
+                                        <button class="btn btn-info btn-sm">
+                                            Ver
+                                        </button>
+
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+
+                    </div>
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
