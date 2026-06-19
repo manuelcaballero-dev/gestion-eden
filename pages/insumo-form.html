@@ -95,7 +95,7 @@
                                     Nombre
                                 </label>
 
-                                <input type="text" class="form-control">
+                                <input required id="nombreInsumo" type="text" class="form-control">
 
                             </div>
 
@@ -119,7 +119,7 @@
                                     Stock Minimo
                                 </label>
 
-                                <input type="number" class="form-control">
+                                <input required id="stockMinimoInsumo" type="number" class="form-control">
 
                             </div>
 
@@ -127,7 +127,7 @@
                                 Guardar Insumos
                             </button>
 
-                            <a href="insumos.html" class="btn btn-secondary">
+                            <a href="insumos.html" class="btn btn-secondary" onclick="return confirm('¿Desea cancelar este registro?')">
 
                                 Cancelar
 

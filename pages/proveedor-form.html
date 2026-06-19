@@ -95,7 +95,7 @@
                                     NIT
                                 </label>
 
-                                <input type="text" class="form-control">
+                                <input required id="NitProveedor" type="text" class="form-control">
 
                             </div>
 
@@ -105,7 +105,7 @@
                                     Nombre
                                 </label>
 
-                                <input type="text" class="form-control">
+                                <input required id="nombreProveedor" type="text" class="form-control">
 
                             </div>
 
@@ -115,7 +115,7 @@
                                     Teléfono
                                 </label>
 
-                                <input type="text" class="form-control">
+                                <input required id="telefonoProveedor" type="text" class="form-control">
 
                             </div>
 
@@ -123,7 +123,7 @@
                                 Guardar proveedor
                             </button>
 
-                            <a href="proveedores.html" class="btn btn-secondary">
+                            <a href="proveedores.html" class="btn btn-secondary" onclick="return confirm('¿Desea cancelar este registro?')">
 
                                 Cancelar
 

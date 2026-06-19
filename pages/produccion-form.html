@@ -110,7 +110,7 @@
                                     Cantidad producida
                                 </label>
 
-                                <input type="number" class="form-control">
+                                <input required id="cantidadProducidaProduccion" type="number" class="form-control">
 
                             </div>
 
@@ -120,7 +120,7 @@
                                    Mano de obra
                                 </label>
 
-                                <input type="number" class="form-control">
+                                <input required id="manoObraProduccion" type="number" class="form-control">
 
                             </div>
                     
@@ -128,7 +128,7 @@
                                 Guardar producción
                             </button>
 
-                            <a href="produccion.html" class="btn btn-secondary">
+                            <a href="produccion.html" class="btn btn-secondary" onclick="return confirm('¿Desea cancelar este registro?')">
 
                                 Cancelar
 

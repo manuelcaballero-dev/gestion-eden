@@ -87,7 +87,7 @@
 
                     <div class="card-body">
 
-                        <form>
+                        <form id="formVenta">
 
                             <div class="mb-3">
 
@@ -125,7 +125,7 @@
                                     Cantidad
                                 </label>
 
-                                <input type="number" class="form-control">
+                                <input required id="cantidadVenta" type="number" class="form-control">
 
                             </div>
 
@@ -150,7 +150,7 @@
                                     Precio Unitario Venta
                                 </label>
 
-                                <input type="number" class="form-control">
+                                <input required id="precioUnitarioVenta" type="number" class="form-control">
 
                             </div>
 
@@ -158,7 +158,7 @@
                                 Guardar Compra
                             </button>
 
-                            <a href="ventas.html" class="btn btn-secondary">
+                            <a href="ventas.html" class="btn btn-secondary" onclick="return confirm('¿Desea cancelar este registro?')">
 
                                 Cancelar
 

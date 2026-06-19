@@ -118,7 +118,7 @@
                                    Total Bruto
                                 </label>
 
-                                <input required id="" type="number" class="form-control">
+                                <input required id="totalBrutoCompra" type="number" class="form-control">
 
                             </div>
 
@@ -128,7 +128,7 @@
                                     IVA
                                 </label>
 
-                                <input type="number"  class="form-control">
+                                <input required id="IVACompra" type="number"  class="form-control">
                                 
                             </div>
                             <div class="mb-3">
@@ -137,7 +137,7 @@
                                     Total Final
                                 </label>
 
-                                <input type="number"  class="form-control">
+                                <input required id="totalFinalCompra" type="number"  class="form-control">
 
                             </div>
 
@@ -145,7 +145,7 @@
                                 Guardar Compra
                             </button>
 
-                            <a href="compras.html" class="btn btn-secondary">
+                            <a href="compras.html" class="btn btn-secondary" onclick="return confirm('¿Desea cancelar este registro?')">
 
                                 Cancelar
 
